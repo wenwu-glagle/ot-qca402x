@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "openthread-core-config.h": "c",
+        "openthread-core-config-check.h": "c",
+        "config.h": "c"
+    }
+}
