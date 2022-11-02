@@ -1,4 +1,4 @@
-# Build libopenthread for Quartz
+# Build libopenthread for QCA402X
 
 In a Bash terminal, follow these instructions to install the GNU toolchain and other dependencies.
 ```bash
