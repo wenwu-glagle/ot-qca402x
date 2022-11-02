@@ -80,6 +80,9 @@ list(APPEND OT_PLATFORM_DEFINES "OPENTHREAD_PROJECT_CORE_CONFIG_FILE=\"${OT_CONF
 list(APPEND OT_PUBLIC_INCLUDES ${PROJECT_SOURCE_DIR}/include)
 
 
+set(OT_BUILD_EXECUTABLES OFF)
+
+
 # ==============================================================================
 # build type
 # ==============================================================================

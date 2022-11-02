@@ -68,7 +68,7 @@ build()
     mkdir -p "${builddir}"
     cd "${builddir}"
 
-    cmake -GNinja -DOT_COMPILE_WARNING_AS_ERROR=ON "$@" "${repo_dir}"
+    cmake -GNinja -DOT_COMPILE_WARNING_AS_ERROR=OFF "$@" "${repo_dir}"
 
     if [[ -n ${OT_CMAKE_NINJA_TARGET[*]} ]]; then
         ninja "${OT_CMAKE_NINJA_TARGET[@]}"
