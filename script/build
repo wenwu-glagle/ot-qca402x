@@ -89,6 +89,8 @@ main()
     local options=("${OT_OPTIONS[@]}")
 
     options+=("-DCMAKE_TOOLCHAIN_FILE=src/${platform}/toolchain.cmake")
+    options+=("-DOT_BUILD_EXECUTABLES=OFF")
+
 
     case "${platform}" in
 
